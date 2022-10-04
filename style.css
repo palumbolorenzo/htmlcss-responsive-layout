@@ -71,6 +71,8 @@ img {
     .hamburger {
         display: none;
     }
+
+
 }
 
 @media screen and (max-width:810px) {
@@ -90,6 +92,10 @@ img {
 
     .benefit-container .benefit-card {
         flex-basis: 45%;
+    }
+
+    .about-us-container .about-us-first .about-us-second {
+        flex-basis: 40%;
     }
 }
 
@@ -114,9 +120,6 @@ img {
         flex-basis: 100%;
     }
 
-    .about-us-second {
-
-    }
 }
 
 /* @media screen and (min-width: 376px) {
@@ -419,8 +422,8 @@ img {
     width: 100%;
     margin: 0 auto;
     padding: 3rem 1rem;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     
     
 }
@@ -432,7 +435,8 @@ img {
     padding: 1rem;
     margin: 3rem 0;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
 }
 
 .about-us-first {
@@ -460,7 +464,7 @@ img {
 }
 
 .about-pic {
-    width: auto;
+    width: fit-content;
     height: 200px;
     border-radius: 50%;
 }
@@ -472,6 +476,7 @@ img {
     border-radius: 10em;
     padding: .3rem 1rem;
     white-space: nowrap;
+    width: fit-content;
 }
 
 .final-container {
@@ -534,5 +539,4 @@ img {
     display: flex;
     flex-direction: column;
 } */
-
 
