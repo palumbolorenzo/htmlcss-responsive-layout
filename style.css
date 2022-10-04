@@ -88,7 +88,7 @@ html {
 }
 
 .card-big {
-    background-color: rgb(167, 217, 255);
+    background-color: #B5DDFF;
     border-radius: 20px;
     padding-top: 1rem;
     padding-left: 1rem;
@@ -136,7 +136,7 @@ html {
 } */
 
 .card-top {
-    background-color: rgb(167, 217, 255);
+    background-color: #B5DDFF;
     border-radius: 20px;
     padding: 1rem;
     display: flex;
@@ -163,7 +163,7 @@ html {
 }
 
 .card-bottom {
-    background-color: rgb(167, 217, 255);
+    background-color: #B5DDFF;
     border-radius: 20px;
     padding: 1rem;
     display: flex;
@@ -173,7 +173,7 @@ html {
 }
 
 .card-bottom-left {
-    background-color: rgb(167, 217, 255);
+    background-color: #B5DDFF;
     border-radius: 20px;
     padding: 1rem;
     display: flex;
@@ -184,7 +184,7 @@ html {
 }
 
 .card-bottom-right {
-    background-color: rgb(167, 217, 255);
+    background-color: #B5DDFF;
     border-radius: 20px;
     padding: 1rem;
     display: flex;
@@ -288,10 +288,9 @@ html {
 .testimonial-pic {
     width: auto;
     height: 100%;
-    
     overflow: hidden;
-    border-radius: 50%;
-    /* object-fit: cover; */
+    clip-path: circle();
+    object-fit: cover;
 }
 
 .testimonial-text {
@@ -330,6 +329,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 1rem;
 }
 
 .benefit-card {
@@ -339,7 +339,7 @@ html {
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    flex: 1 1 33%;
+    flex: 1 1 28%;
 }
 
 .btn-benefit {
@@ -351,6 +351,15 @@ html {
     margin-top: 1rem;
     text-decoration: none;
     white-space: nowrap;
+}
+
+.ab-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .about-us-container {
@@ -415,7 +424,7 @@ html {
 }
 
 .free {
-    color: rgb(255, 221, 0);
+    color: #FDC15F;
     margin-top: 1rem;
 }
 
