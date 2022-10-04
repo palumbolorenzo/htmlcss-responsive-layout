@@ -8,6 +8,10 @@ html {
     font-family: sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 .nav-top {
     background-color: #0084FD;
     height: 4.7rem;
@@ -75,6 +79,16 @@ html {
     }   
 }
 
+/* @media screen and (min-width: 376px) {
+    .container-main-top .card-big {
+        flex-basis: calc((100% - 2rem) / 3);
+    }
+
+    .features .card-demo {
+        flex-basis: calc(100% - calc((100% - 2rem) / 3) - 1rem);
+    }
+} */
+
 
 .container-main-top {
     max-width: 1120px;
@@ -121,6 +135,10 @@ html {
     padding-right: 2rem;
     display: inline-block;
     
+}
+
+.card-big-pic {
+    margin-bottom: -1rem;
 }
 
 /* .card-big-text {
@@ -346,6 +364,7 @@ html {
     color: white;
     background-color: #9593E6;
     text-decoration: none;
+    width: fit-content;
     border-radius: 10em;
     padding: .5rem 2rem;
     margin-top: 1rem;
@@ -388,6 +407,11 @@ html {
 .about-title {
     color: #9593E6;
     margin-bottom: 2rem;
+}
+
+.about-text {
+    line-height: 30px;
+    margin-top: 2rem;
 }
 
 .about-pic {
@@ -465,3 +489,5 @@ html {
     display: flex;
     flex-direction: column;
 } */
+
+
