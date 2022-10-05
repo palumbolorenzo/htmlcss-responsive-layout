@@ -156,6 +156,12 @@ img {
     
 }
 
+.card-big-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+}
+
 .card-title {
     color: #0084FD;
     margin-bottom: 1rem;
@@ -182,7 +188,7 @@ img {
 }
 
 .card-big-pic {
-    margin-bottom: -1rem;
+    /* margin-bottom: -1rem; */
 }
 
 /* .card-big-text {
